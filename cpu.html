@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parts of a CPU</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        header {
+            background-color: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 30px;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 280px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+        }
+
+        .card p {
+            padding: 0 15px 15px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        footer {
+            background-color: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>💻 Main Parts of a CPU</h1>
+    <p>Short & Simple Explanation</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Intel_80486DX2_top.jpg">
+        <h3>1. Control Unit (CU)</h3>
+        <p>The Control Unit directs all operations of the CPU. It tells other parts what to do and manages instructions.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Arithmetic_logic_unit.png">
+        <h3>2. Arithmetic Logic Unit (ALU)</h3>
+        <p>The ALU performs calculations like addition, subtraction, AND, OR, and comparisons.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/CPU_registers.svg">
+        <h3>3. Registers</h3>
+        <p>Registers are small, fast memory locations inside the CPU that store temporary data.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/CPU_Cache_Location.svg">
+        <h3>4. Cache Memory</h3>
+        <p>Cache is high-speed memory inside the CPU that stores frequently used data for faster access.</p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 CPU Guide | Made by Dhruv
+</footer>
+
+</body>
+</html>

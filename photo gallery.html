@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetic Gallery</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #e0eafc, #cfdef3);
+        }
+
+        header {
+            text-align: center;
+            padding: 40px;
+            background: rgba(0,0,0,0.6);
+            color: white;
+            letter-spacing: 2px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 28px;
+            color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 30px;
+            gap: 25px;
+        }
+
+        .card {
+            width: 300px;
+            border-radius: 15px;
+            overflow: hidden;
+            background: white;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            transition: transform 0.4s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card p {
+            padding: 15px;
+            font-size: 15px;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0,0,0,0.6);
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🚗 Cars & 🏛️ Architecture</h1>
+    <p>Minimal. Clean. Aesthetic.</p>
+</header>
+
+<h2 class="section-title">🚗 Cars</h2>
+
+<div class="gallery">
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Lamborghini_Aventador.jpg">
+        <p>Lamborghini Aventador — A powerful V12 supercar with bold Italian design.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Tesla_Model_S_02_2013.jpg">
+        <p>Tesla Model S — Elegant electric performance with futuristic minimal styling.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Ferrari_488_GT3.jpg">
+        <p>Ferrari 488 — Precision engineering blended with aggressive beauty.</p>
+    </div>
+
+</div>
+
+<h2 class="section-title">🏛️ Architecture</h2>
+
+<div class="gallery">
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Taj-Mahal.jpg">
+        <p>Taj Mahal — A timeless marble masterpiece symbolizing love.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Eiffel_Tower.jpg">
+        <p>Eiffel Tower — Iconic iron structure defining Paris skyline.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Burj_Khalifa.jpg">
+        <p>Burj Khalifa — The tallest building in the world with sleek modern design.</p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Aesthetic Gallery | Designed by Dhruv
+</footer>
+
+</body>
+</html>
