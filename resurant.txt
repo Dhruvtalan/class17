@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Restaurant</title>
+
+    <style>
+        body {
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            color: darkred;
+        }
+
+        ul {
+            list-style-type: square;
+            text-align: left;
+            display: inline-block;
+        }
+
+        img {
+            width: 200px;
+            height: 150px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: darkred;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to Tasty Bites</h1>
+    <p>Delicious food made with love ❤️</p>
+
+    <h2>Our Menu</h2>
+
+    <ul>
+        <li>Starters
+            <ul>
+                <li>Tomato Soup</li>
+                <li>Veg Spring Rolls</li>
+            </ul>
+        </li>
+
+        <li>Main Course
+            <ul>
+                <li>Paneer Butter Masala</li>
+                <li>Chicken Biryani</li>
+            </ul>
+        </li>
+
+        <li>Desserts
+            <ul>
+                <li>Ice Cream</li>
+                <li>Gulab Jamun</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Our Special Dishes</h2>
+
+    <img src="https://source.unsplash.com/200x150/?biryani" alt="Biryani">
+    <img src="https://source.unsplash.com/200x150/?paneer" alt="Paneer">
+    <img src="https://source.unsplash.com/200x150/?dessert" alt="Dessert">
+
+    <br><br>
+
+    <a href="reservation.html" target="_blank">Book a Reservation</a>
+
+</body>
+</html>
